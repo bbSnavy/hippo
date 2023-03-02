@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html {
+    --color-0: #1E0227;
+    --color-1: #060047;
+    --color-2: #bf00ff;
+    --color-3: #B3005E;
+    --color-4: #E90064;
+    --color-5: #FF5F9E;
+    --color-6: #FF8D29;
+    --color-7: #FFCD38;
+    --color-8: #dfff11;
+    --color-9: #08ff08;
+    --color-a: #1F7D1F;
+    --color-b: #165816;
+    --color-c: #0D340D;
+    --color-d: #434336;
+    --color-e: #2c2c24;
+    --color-f: #1f1f19;
+    --color-t: #f0f3f4;
+    --color-p: rgba(255, 255, 255, 0.25);
+    --color-q: rgba(255, 255, 255, 0.10);
+    --color-q: rgba(0, 0, 0, 0.75);
+    --color-s: rgba(128, 128, 128, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: 16px !important;
+    scrollbar-color: white var(--color-f) !important;
+}
+
+*::-webkit-scrollbar {
+    width: 16px !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--color-f) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: white !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+body {
+    background: black !important;
+    color: var(--color-t) !important;
+    border-color: var(--color-e) !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-primary {
+    color: var(--color-7) !important;
+}
+
+.text-success {
+    color: var(--color-9) !important;
+}
+
+a {
+    color: var(--color-t) !important;
+}
+
+/* transparent sidebar */
+.sidebar {
+    background: none !important;
+}
+
+.sidebar .logo-container {
+    background: none !important;
+}
+
+.sidebar > ul > li:last-child {
+    background: none !important;
+}
+
+
+/* transparent cirruculum bar */
+#student-switch-curriculum {
+    background: none !important;
+}
+
+/* profile picture */
+.profile-pic {
+    height: 96px !important;
+    width: 96px !important;
+    box-shadow: none !important;
+    border: 2px solid var(--color-f) !important;
+    border-radius: 0;
+    margin: 0 0 24px 32px !important;
+    content: url("https://cdn.discordapp.com/attachments/915659379032854578/1080840065586036787/avatar.png") !important;
+}
+
+
+.copyright {
+    font-size: 16px !important;
+}
+
+.copyright::after {
+    content: " Custom Visual Theme at github.com/bbsnavy/hippo";
+}
+
+.panel {
+    background: var(--color-p) !important;
+    color: var(--color-t) !important;
+    border-radius: 2px !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+}
+
+/* .panel.panel-tile {
+    background: var(--color-1) !important;
+} */
+
+
+.panel-default > .panel-heading {
+    background: var(--color-3) !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+.panel.panel-default .panel-heading .panel-title {
+    color: var(--color-t) !important;
+}
+
+.panel.panel-default .panel-heading .panel-title i.panel-title-icon {
+    background: black !important;
+}
+
+
+.panel-body {
+    background: none !important;
+    color: var(--color-t) !important;
+}
+
+
+.panel-footer {
+    background: var(--color-s) !important;
+    color: var(--color-t) !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+
+.list-group-item {
+    background: var(--color-q) !important;
+}
+
+
+pre, code {
+    background: var(--color-f) !important;
+    color: var(--color-7) !important;
+    font-family: 'Space Mono', monospace !important;
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 95% !important;
+}
+
+.introjs-tooltip {
+    background: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.introjs-floating {
+    background: var(--color-1) !important;
+    color: var(--color-t) !important;
+}
+
+.modal-content {
+    background: var(--color-f) !important;
+    color: var(--color-t) !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.correction-request-timeline .timeline-event, .well {
+    background: var(--color-f) !important;
+    color: var(--color-t) !important;
+    border: none !important;
+}
+
+.alert-info {
+    background: var(--color-q) !important;
+    font-size: 24px;
+    border: none !important;
+    border-radius: 2px !important;
+}
+
+.alert-info::before {
+    content: "注意" !important;
+    color: var(--color-7) !important;
+}
+
+.alert-info::after {
+    content: "경고" !important;
+    color: var(--color-6) !important;
+}
+
+.alert-info > strong {
+    display: none;
+}
+
+.highcharts-background {
+    fill: var(--color-0) !important;
+    opacity: 0.5 !important;
+    color: white !important;
+}
+
+.highcharts-container tspan {
+    color: var(--color-t) !important;
+    fill: var(--color-t) !important;
+}
+
+.highcharts-graph {
+    fill: var(--color-9) !important;
+    stroke: var(--color-9) !important;
+    opacity: 0.75 !important;
+}
+
+
+.student-home .self-paced .progress-card .progress-information {
+    background: var(--color-p) !important;
+}
+
+.student-home .self-paced .panel {
+    height: inherit !important;
+}
+
+.student-home .self-paced .progress-card .progress-pathway {
+    /* height: 500px !important; */
+}
+
+
+.correction-request-timeline .timeline-event.passed.requirement {
+    border: 2px solid var(--color-8) !important;
+    border-radius: 2px !important;
+}
+
+.correction-request-timeline .timeline-event.passed.requirement .colored {
+    color: white !important;
+}
+
+.correction-request-timeline .timeline-event.failed.requirement {
+    border: 2px solid var(--color-8) !important;
+    border-radius: 2px !important;
+}
+
+.correction-request-timeline .timeline-event.failed.requirement .colored {
+    color: white !important;
+}
+
+.correction-request-timeline .timeline-event.passed.code {
+    border: 2px solid var(--color-5) !important;
+    border-radius: 2px !important;
+}
+
+.requirement .fa-check-circle::before {
+    content: "\f14a" !important;
+}
+
+.code .fa-check-circle::before {
+    content: "\f004" !important;
+}
+
+.failed .fa-times-circle::before {
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 900;
+    content: "\f54c" !important;
+}
+
+.correction-request-timeline .timeline-event.passed.code .colored {
+    color: var(--color-4) !important;
+}
+
+.spinner > div {
+    background: var(--color-3) !important;
+}
+
+.logged_out_form {
+    background: var(--color-0) !important;
+    box-shadow: none;
+}
+
+.profile-pic {
+    box-shadow: none;
+}
+
+.project-circle {
+    box-shadow: none !important;
+}
+
+.pathway .project-circle {
+    background: var(--color-3) !important;
+}
+
+.CircularProgressbar-path {
+    stroke: var(--color-8) !important;
+}
+
+.pathway .project-circle .circular-progress-bar-radial-separator {
+    background: none !important;
+}
+
+time {
+    box-shadow: none !important;
+    background: var(--color-e) !important;
+    color: var(--color-t) !important;
+}
+
+time > span {
+    color: var(--color-t) !important;
+}
+
+.form-control {
+    background: none;
+    color: white;
+}
+
+.pre-check-message img {
+    padding: 15px !important;
+    content: url("https://cdn.discordapp.com/attachments/915659379032854578/1080823962776391701/hacker.gif") !important;
+}
+
+.post-check-message {
+    margin-left: 0 !important;
+    margin: 0 !important;
+}
+
+.post-check-message img {
+    width: 100% !important;
+    padding: 15px !important;
+    content: url("https://cdn.discordapp.com/attachments/915659379032854578/1080827144248229938/surveillance.gif") !important;
+}

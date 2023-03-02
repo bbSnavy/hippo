@@ -1,0 +1,36 @@
+{
+	"manifest_version": 3,
+	"name": "Hippo",
+	"version": "1.0.0",
+	"author": "1337snavy@gmail.com",
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "Hippo Extension"
+	},
+	"content_scripts": [
+		{
+			"js": [
+				"scripts/main.js"
+			],
+			"matches": [
+				"https://*.hbtn.io/*"
+			]
+		},
+		{
+			"css": [
+				"style/canvas.css"
+			],
+			"matches": [
+				"https://*.hbtn.io/*"
+			]
+		},
+		{
+			"css": [
+				"style/intra.css"
+			],
+			"matches": [
+				"https://*.hbtn.io/*"
+			]
+		}
+	]
+}
