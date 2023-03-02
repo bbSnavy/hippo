@@ -325,6 +325,7 @@ time > span {
 }
 
 .pre-check-message img {
+    display: block !important;
     padding: 15px !important;
     content: url("https://cdn.discordapp.com/attachments/915659379032854578/1080823962776391701/hacker.gif") !important;
 }
